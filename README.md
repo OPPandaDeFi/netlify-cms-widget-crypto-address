@@ -19,20 +19,20 @@ npm i netlify-cms-widget-crypto-address
 2. Import the UUID widget in the netlifyCMS file:
 
 ```
-import {ObjectIDControl, ObjectIDPreview} from 'netlify-cms-widget-bson-id';
+import {CryptoAddressControl, CryptoAddressPreview} from 'netlify-cms-widget-crypto-address';
 ```
 
 3. Register the widget ready for use:
 
 ```
-CMS.registerWidget('objectid', ObjectIDControl, ObjectIDPreview)
+CMS.registerWidget('crypto-address', CryptoAddressControl, CryptoAddressPreview)
 
 ```
 
 Via `script` tag:
 
 ```html
-<script src="https://unpkg.com/netlify-cms-widget-crypto-address@^0.0.1/dist/index.js"></script>
+<script src="https://unpkg.com/netlify-cms-widget-crypto-address@0.0.1/dist/main.js"></script>
 <script type="text/javascript">
   CMS.registerWidget(
     "crypto-address",
