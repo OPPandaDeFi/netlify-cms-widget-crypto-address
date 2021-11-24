@@ -1,6 +1,6 @@
 {
   "name": "netlify-cms-widget-crypto-address",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Allow selection of type and validation of crypto address for NetlifyCMS",
   "repository": {
     "type": "git",

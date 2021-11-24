@@ -32,7 +32,7 @@ CMS.registerWidget('crypto-address', CryptoAddressControl, CryptoAddressPreview)
 Via `script` tag:
 
 ```html
-<script src="https://unpkg.com/netlify-cms-widget-crypto-address@0.0.1/dist/main.js"></script>
+<script src="https://unpkg.com/netlify-cms-widget-crypto-address@0.1.0/dist/main.js"></script>
 <script type="text/javascript">
   CMS.registerWidget(
     "crypto-address",
